@@ -18,6 +18,7 @@ roboto 600, 400, 500
 --primary-brand: #4D5AE5;
 --add-text-color: #8E8F99;
 --second-background: #E7E9FC;
+--add-background: #E5E5E5;
 --accent-background: #2E2F42;
 --white: #FFFFFF;
 --logo-text: #F4F4FD;
@@ -83,3 +84,83 @@ text-decoration: none;
   .list {
     list-style: none;
 }
+
+/* web studio */
+/* hero-section */
+.hero-section {
+    background-color: var(--accent-background);
+  }
+  h1 {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .primary-button {
+    background-color: var(--primary-brand);
+    color: var(--white);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .primary-button:hover {
+    background-color: var(--pressed-state);
+    cursor: pointer;
+  }
+
+  /* main */
+.title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+  }
+  
+  p {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.6;  
+}
+.our-team {
+    background-color: var(--logo-text);
+}
+/*footer */
+footer {
+    background-color: var(--accent-background);
+  }
+  .footer-text {
+    color: var(--second-background);
+  }
+  /*portfolio */
+  .secondary-button {
+    border: none;
+    color: var(--primary-brand);
+    background-color: var(--second-background);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .secondary-button:hover {
+    color: var(--white);
+    background-color: var(--pressed-state);
+    cursor: pointer;
+  }
+  .secondary-button:focus {
+    color: var(--white);
+    background-color: var(--pressed-state);
+  }
+  .portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  .portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
