@@ -66,6 +66,11 @@ text-decoration: none;
     color: var(--primary-brand);
   }
 
+  .nav-link.current {
+    color: var(--primary-brand);
+    text-decoration: underline;
+  }
+
   /*links */
 .link {
     color: var(--add-text-color);
